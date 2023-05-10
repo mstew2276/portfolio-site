@@ -6,6 +6,43 @@ video {
     z-index: -1;
   }
 
+  .cards__item {
+    display: orange;
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  
+  .cards__item__img {
+    position: absolute;
+    margin-top: 15px;
+
+    height: 45%;
+    max-height: 50%;
+    transition: all 0.2s linear;
+    background-color: aqua;
+  }
+
+  .cards__item__h1 {
+    color: #252e48;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: -4%;
+    margin-left: 48%;
+    font-size: 30px;
+    height: 0px;
+  }
+
+  .cards__item__text {
+    color: #252e48;
+    width: 50%;
+    margin-top: 11%;
+    margin-left: 40%;
+    font-size: 30px;
+    line-height: 24px;
+  }
+
   .hero-container {
     /* background: url('/public/images/img-home.jpg') 
     center center/cover no-repeat; */
@@ -23,11 +60,12 @@ video {
     /* make background color bmw m3 grey later with light blue border and light black shadowing */
     background-color: red;
     height: 50vh;
-    width: 89%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: column;
     align-items: center;
+    max-width: 1120px;
+    width: 89%;
+    margin: 0 auto;
   }
 
   .hero-profile > img {
@@ -52,6 +90,7 @@ video {
     color: #fff;
     font-size: 22px;
     width: 800px;
+    word-break:break-all;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
@@ -67,21 +106,36 @@ video {
     margin-left: 4px;
   }
 
-  @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-        font-size: 70px;
-        margin-top: -150px;
-      }
-  }
 
-  @media screen and (max-width: 768px) {
+
+
+
+  @media screen and (max-width: 1008px) {
+    .cards__item__img {
+        position: absolute;
+    margin-top: 65px;
+
+
+    height: 30%;
+    }
+
+    .cards__item__h1 {
+        font-size: 30px;
+        margin-left: 43%;
+    }
+
+    .cards__item__text {
+        font-size: 23px;
+    }
+
     .hero-container > h1 {
-        font-size: 50px;
+        font-size: 15px;
         margin-top: -100px;
       }
 
     .hero-container > p {
-        font-size: 30px;
+        font-size: 10px;
+            word-break:break-all;
     }
 
     .btn-mobile {
@@ -93,3 +147,29 @@ video {
         width: 100%;
     }
   }
+
+  @media screen and (max-width: 708px) {
+    .cards__item__img {
+        position: absolute;
+    margin-top: 65px;
+
+
+    height: 28%;
+    }
+
+    .cards__item__h1 {
+        font-size: 20px;
+        margin-left: 52%;
+
+    }
+
+    .cards__item__text {
+        margin-top: 15%;
+        font-size: 14px;
+        margin-left: 52%;
+        word-break:break-all;
+    }
+
+}
+
+
