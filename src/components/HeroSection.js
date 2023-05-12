@@ -18,6 +18,14 @@ function HeroSection() {
         </ul>
       </div>
       <div className='hero-btns'>
+      <Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          WATCH TRAILER <i className='far fa-play-circle' />
+        </Button>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -26,13 +34,41 @@ function HeroSection() {
           GET STARTED
         </Button>
         <Button
-          className='btns'
-          buttonStyle='btn--primary'
+          className='btns1'
+          buttonStyle='btn--outline'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          GET STARTED
         </Button>
+        <Button
+          className='btns2'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GET STARTED
+        </Button>
+        <Button
+          className='btns3'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GET STARTED
+        </Button>
+        <Button
+          className='btns4'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GET STARTED
+        </Button>
+        <Button
+          className='btns5'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GET STARTED
+        </Button>
+        
       </div>
     </div>
   );

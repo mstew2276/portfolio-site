@@ -6,9 +6,9 @@ import CardItem1 from './CardItem1';
 
 function HeroSection1() {
   return (
-    <div className='hero-container'>
+    <div className='hero-container1'>
       <video src='./videos/video-1.mp4' autoPlay loop muted />
-        <h1>Front End Software Developer</h1>
+        <h1>Front End Web Developer</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie nunc eu odio tempus, et suscipit enim viverra. Sed nec odio iaculis, commodo augue a, egestas neque. </p>
       <div className='hero-btns'>
         <Button
