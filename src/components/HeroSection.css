@@ -17,11 +17,17 @@ video {
   .cards__item__img {
     position: absolute;
     margin-top: 15px;
+    border-radius: 50px;
 
     height: 45%;
     max-height: 50%;
     transition: all 0.2s linear;
     background-color: aqua;
+  }
+
+  .cards__item__link {
+    text-decoration: none;
+    cursor: default;
   }
 
   .cards__item__h1 {
@@ -66,6 +72,8 @@ video {
     max-width: 1120px;
     width: 89%;
     margin: 0 auto;
+    border-style: solid;
+    border-width: 6px;
   }
 
   .hero-profile > img {
@@ -92,6 +100,7 @@ video {
     width: 800px;
     word-break:break-all;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
   }
 
   .hero-btns {
