@@ -50,6 +50,55 @@ video {
   }
 
 
+  .social-icon-link {
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-media {
+    max-width: 1000px;
+    width: 50%;
+    background-color: red;
+    z-index: 998;
+}
+
+.social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    z-index: 1000;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    z-index: 1000;
+}
+
+.social-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-self: center;
+    margin-bottom: 16px;
+    z-index: 1000;
+}
+
+.website-rights {
+    color: #fff;
+    margin-bottom: 16px;
+    z-index: 1000;
+}
+
 
 
 

@@ -7,7 +7,7 @@ import CardItem from './CardItem';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='./videos/video-1.mp4' autoPlay loop muted />
+      {/* <video src='./videos/video-1.mp4' autoPlay loop muted /> */}
       <div className='hero-profile'>
         <ul className='cards__items'>
             <CardItem 
@@ -17,56 +17,66 @@ function HeroSection() {
             />
         </ul>
       </div>
-      <div className='hero-btns'>
+      <div className='hero-skills-btns'>
       <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          SKILLS: <i className='far fa-play-circle' />
         </Button>
+      </div>
+      <div className='hero-btns'>
+      
         <Button
-          className='btns'
+          className='btns0'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          Javascript
         </Button>
         <Button
           className='btns1'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          HTML
         </Button>
         <Button
           className='btns2'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          CSS
         </Button>
         <Button
           className='btns3'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          React
         </Button>
         <Button
           className='btns4'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          Python
         </Button>
         <Button
           className='btns5'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          Node JS
+        </Button>
+        <Button
+          className='btns6'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          SQL
         </Button>
         
       </div>

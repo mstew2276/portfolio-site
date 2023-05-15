@@ -86,7 +86,11 @@
       top: 80px;
       left: -100%;
       opacity: 1;
-      transition: all 0.5s ease;
+
+    }
+    .nav-item {
+      transition: none;
+      height: 0px;
     }
   
     .nav-menu.active {
@@ -97,17 +101,8 @@
       z-index: 1;
     }
   
-    .nav-links {
-      text-align: center;
-      padding: 2rem;
-      width: 100%;
-      display: table;
-    }
-  
     .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
-      border-radius: 0;
+      border-bottom: 4px solid transparent;
     }
   
     .navbar-logo {
@@ -152,5 +147,18 @@
       color: #242424;
       transition: 250ms;
     }
+    .nav-links {
+      color: #fff;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+      text-decoration: none;
+      border-style: solid;
+      border-width: 0px;
+      border-style: ridge;
+      border-left: 0px;
+      border-bottom: 0px;
+      border-radius: 00px;
+      height: 100%;
+    } 
   }
-  
