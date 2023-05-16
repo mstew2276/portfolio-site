@@ -17,6 +17,7 @@ function HeroSection1() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie nunc eu odio tempus, et suscipit enim viverra. Sed nec odio iaculis, commodo augue a, egestas neque. </p>
         <section class='social-media'>
         <div class='social-media-wrap'>
+          
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -61,23 +62,7 @@ function HeroSection1() {
           </div>
         </div>
       </section>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
-      </div>
+      
     </div>
   );
 }
