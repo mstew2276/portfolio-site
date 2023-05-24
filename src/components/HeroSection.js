@@ -76,7 +76,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          SQL
+          Bootstrap
         </Button>
         
       </div>

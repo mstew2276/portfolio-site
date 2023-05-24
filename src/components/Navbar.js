@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React, { useState, useEffect, Component } from "react";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import Scroll from 'react-scroll'
+import {HashLink} from 'react-router-hash-link';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const ScrollLink = Scroll.ScrollLink
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -22,34 +25,33 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 About Me
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/projects'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Projects
-              </Link>
+            <li className="nav-item">
+              
+              <HashLink smooth to='/#projects'
+                className="nav-links"
+                onClick={closeMobileMenu} > 
+                Projects 
+                </HashLink>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
-                to='/contact'
-                className='nav-links'
+                to="/contact"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Contact

@@ -1,17 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './ProjectsMain.css';
 import CardItem2 from './CardItem2';
+import { Element } from 'react-scroll'
+
 
 function ProjectSection() {
   return (
     <div className='cards'>
+      <div id='projects'></div>
     <div className='project__container'>
       {/* <video src='./videos/video-1.mp4' autoPlay loop muted /> */}
       
         <div className='cards__wrapper'>
         <ul className='cards__items'>
+            <CardItem2
+            src='./images/profilepic.png'
+            h1='MASON STEWART'
+            text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            />
             <CardItem2
             src='./images/profilepic.png'
             h1='MASON STEWART'
@@ -42,6 +50,7 @@ function ProjectSection() {
             </ul>
             </div>
         </div>
+
         
 
       {/* <div className='project-skills-btns'>

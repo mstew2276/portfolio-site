@@ -26,8 +26,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
+      <section class='social-media2'>
+        <div class='social-media-wrap2'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Mason Stewart
