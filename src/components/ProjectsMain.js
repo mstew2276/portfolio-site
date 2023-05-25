@@ -17,35 +17,41 @@ function ProjectSection() {
         <ul className='cards__items'>
             <CardItem2
             src='./images/profilepic.png'
-            h1='MASON STEWART'
+            h1='P1/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            path='/projectsp1'
             />
             <CardItem2
             src='./images/profilepic.png'
-            h1='MASON STEWART'
+            h1='P2/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            path='/projectsp2'
             />
             <CardItem2
             src='./images/profilepic.png'
-            h1='MASON STEWART'
+            h1='P3/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            path='/projectsp3'
             />
         </ul>
         <ul className='cards__items'>
             <CardItem2 
             src='./images/profilepic.png'
-            h1='MASON STEWART'
+            h1='P4/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            path='/projectsp4'
             />
             <CardItem2 
             src='./images/profilepic.png'
-            h1='MASON STEWART'
+            h1='P5/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            path='/projectsp5'
             />
             <CardItem2 
             src='./images/profilepic.png'
-            h1='MASON STEWART'
+            h1='P6/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            path='/projectsp6'
             />
             </ul>
             </div>
