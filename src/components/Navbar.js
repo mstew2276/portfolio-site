@@ -50,9 +50,9 @@ function Navbar() {
                 <div className="dropdown">
                 <button class="dropbtn">
                   Projects
-                  <i class="fa fa-caret-down"></i>
+                  {/* <i class="fa fa-caret-down"></i> */}
                 </button>
-                <div class="dropdown-content">
+                {/* <div class="dropdown-content">
                   <Link
                   to="/projectsp1"
                   className="dropdown-projects"
@@ -83,7 +83,7 @@ function Navbar() {
                   className="dropdown-projects"
                   onClick={closeMobileMenu}
                   >P6/</Link>
-                </div>
+                </div> */}
                 </div>
               </HashLink>
             </li>

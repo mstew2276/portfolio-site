@@ -61,6 +61,7 @@
             }
 
             .body {
+                padding-top: 20vh;
                 font: 18px/1.5 "Open Sans", sans-serif;
                 background: var(--bodyColor);
                 color: var(--white);

@@ -9,20 +9,20 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
+            <h2>Contact Me</h2>
             <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
+            {/* <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/'>Sponsorships</Link> */}
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>My Links</h2>
+            <Link to='https://github.com/mstew2276'>Github</Link>
+            <Link to='/images/MasonStewartResume.pdf'>Resume</Link>
+            {/* <Link to='/'>Twitter</Link> */}
+            <Link to='https://www.linkedin.com/in/mason-stewart-460a0b1b9/'>LinkedIn</Link>
           </div>
         </div>
       </div>
@@ -34,41 +34,41 @@ function Footer() {
             </Link>
           </div>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
+          <Link
+              class='social-icon-link github'
+              to='https://github.com/mstew2276'
               target='_blank'
-              aria-label='Facebook'
+              aria-label='Github'
             >
-              <i class='fab fa-facebook-f' />
+              <i class='fa-brands fa-github' />
             </Link>
             <Link
-              class='social-icon-link instagram'
-              to='/'
+              class='social-icon-link resume'
+              to='/images/MasonStewartResume.pdf'
               target='_blank'
-              aria-label='Instagram'
+              aria-label='Resume'
             >
-              <i class='fab fa-instagram' />
+              <i class='fa-regular fa-id-card' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
+            </Link>  */}
+            {/* <Link
               class='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
-            </Link>
+              <i class='fab fa-twitter'></i>
+            </Link> */}
             <Link
               class='social-icon-link linkedin'
-              to='/'
+              to='https://www.linkedin.com/in/mason-stewart-460a0b1b9/'
               target='_blank'
               aria-label='LinkedIn'
             >

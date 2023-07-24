@@ -13,47 +13,48 @@ function HeroSection1() {
   return (
     <div className='hero-container1'>
       <video src='./videos/video-1.mp4' autoPlay loop muted />
-        <h1>Front End Web Developer</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie nunc eu odio tempus, et suscipit enim viverra. Sed nec odio iaculis, commodo augue a, egestas neque. </p>
+        <h1>Junior Front End Web Developer</h1>
+        <p>My name is Mason Stewart I am a nucamp coding bootcamp graduate based in the Seattle area, My specialties are in front end web development mainly working with React and Bootstrap, additionally knowledgable of back end devlopment utilizing tools such as python. </p>
+        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie nunc eu odio tempus, et suscipit enim viverra. Sed nec odio iaculis, commodo augue a, egestas neque. 26words </p> */}
         <section class='social-media'>
         <div class='social-media-wrap'>
           
           <div class='social-icons'>
             <Link
-              class='social-icon-link facebook'
-              to='/'
+              class='social-icon-link github'
+              to='https://github.com/mstew2276'
               target='_blank'
-              aria-label='Facebook'
+              aria-label='Github'
             >
-              <i class='fab fa-facebook-f' />
+              <i class='fa-brands fa-github' />
             </Link>
             <Link
-              class='social-icon-link instagram'
-              to='/'
+              class='social-icon-link resume'
+              to='/images/MasonStewartResume.pdf'
               target='_blank'
-              aria-label='Instagram'
+              aria-label='Resume'
             >
-              <i class='fab fa-instagram' />
+              <i class='fa-regular fa-id-card' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
+            </Link>  */}
+            {/* <Link
               class='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter'></i>
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link linkedin'
-              to='/'
+              to='https://www.linkedin.com/in/mason-stewart-460a0b1b9/'
               target='_blank'
               aria-label='LinkedIn'
             >

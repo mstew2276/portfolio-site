@@ -16,32 +16,33 @@ function ProjectSection() {
         <div className='cards__wrapper'>
         <ul className='cards__items'>
             <CardItem2
-            src='./images/profilepic.png'
-            h1='P1/'
-            text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            src='./images/p1portfolio.png'
+            h1='Portfolio'
+            text="portfolio-site is the culmination of the skills I've been practicing and projects I've been currently working on and who I am. "
             path='/projectsp1'
             />
             <CardItem2
-            src='./images/profilepic.png'
-            h1='P2/'
-            text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
+            src='./images/p2ulious.png'
+            h1='Ulious Solutions'
+            text='UliousPage is a bootstrap project of mine to create a landing page for my own social media marketing agrency built upon the nucampsite we created for one of our bootstrap nucamp projects. '
             path='/projectsp2'
             />
-            <CardItem2
-            src='./images/profilepic.png'
-            h1='P3/'
-            text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
-            path='/projectsp3'
-            />
+            
         </ul>
         <ul className='cards__items'>
-            <CardItem2 
-            src='./images/profilepic.png'
-            h1='P4/'
-            text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
-            path='/projectsp4'
+        <CardItem2
+            src='./images/p3TurboUp.png'
+            h1='Turbo Up'
+            text='carappproject a.k.a TurboUp is as the name implies a car app project, the idea for this was to create a react app for the car community in which people could find there vehicle and see what kind of mods would work for their vehicle. '
+            path='/projectsp3'
             />
             <CardItem2 
+            src='./images/p4python.png'
+            h1='Python Game'
+            text='Python Game is a project my classmates and I at Nucamp were told to create to show our understanding of variables and funcitons and how it can be used to create a turned based terminal game. '
+            path="https://google.com"
+            />
+            {/* <CardItem2 
             src='./images/profilepic.png'
             h1='P5/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
@@ -52,7 +53,7 @@ function ProjectSection() {
             h1='P6/'
             text='Nam venenatis sem a lectus ultricies lobortis. Nunc finibus et metus eu blandit. Curabitur bibendum pharetra nulla, ac malesuada tortor varius nec. Duis at lorem est. Quisque elementum, justo '
             path='/projectsp6'
-            />
+            /> */}
             </ul>
             </div>
         </div>
