@@ -20,7 +20,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>My Links</h2>
             <Link to='https://github.com/mstew2276'>Github</Link>
-            <Link to='/images/MasonStewartResume.pdf'>Resume</Link>
+            {/* <Link to='/images/MasonStewartResume.pdf'>Resume</Link> */}
             {/* <Link to='/'>Twitter</Link> */}
             <Link to='https://www.linkedin.com/in/mason-stewart-460a0b1b9/'>LinkedIn</Link>
           </div>
