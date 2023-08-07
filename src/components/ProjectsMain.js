@@ -19,13 +19,13 @@ function ProjectSection() {
             src='./images/p1portfolio.png'
             h1='Portfolio'
             text="portfolio-site is the culmination of the skills I've been practicing and projects I've been currently working on and who I am. "
-            path='/projectsp1'
+            path='https://1drv.ms/w/s!AjazutueHmfWhNwwjOIOSartoMVHZg?e=CFYZWG'
             />
             <CardItem2
             src='./images/p2ulious.png'
             h1='Ulious Solutions'
             text='UliousPage is a bootstrap project of mine to create a landing page for my own social media marketing agrency built upon the nucampsite we created for one of our bootstrap nucamp projects. '
-            path='/projectsp2'
+            path='https://docs.google.com/document/d/1JTXhZBiOIiESCujJLioFPtBrXUEVbdojT-eDVDfter8/edit?usp=sharing'
             />
             
         </ul>
@@ -34,13 +34,13 @@ function ProjectSection() {
             src='./images/p3TurboUp.png'
             h1='Turbo Up'
             text='carappproject a.k.a TurboUp is as the name implies a car app project, the idea for this was to create a react app for the car community in which people could find there vehicle and see what kind of mods would work for their vehicle. '
-            path='/projectsp3'
+            path='https://main.d3byc55h7tfiuv.amplifyapp.com/'
             />
             <CardItem2 
             src='./images/p4python.png'
             h1='Python Game'
             text='Python Game is a project my classmates and I at Nucamp were told to create to show our understanding of variables and funcitons and how it can be used to create a turned based terminal game. '
-            path="https://google.com"
+            path="https://1drv.ms/f/s!AjazutueHmfWpd9fmukNIvsj4hGEKg?e=fYdPIG"
             />
             {/* <CardItem2 
             src='./images/profilepic.png'
