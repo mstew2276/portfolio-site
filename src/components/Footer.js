@@ -44,7 +44,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link resume'
-              to='/images/MasonStewartResume.pdf'
+              to='https://1drv.ms/w/s!AjazutueHmfWhNwwjOIOSartoMVHZg?e=CFYZWG'
               target='_blank'
               aria-label='Resume'
             >
