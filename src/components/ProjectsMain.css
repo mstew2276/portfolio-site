@@ -124,7 +124,7 @@ background-color: rgb(41, 40, 36);
   box-sizing: border-box;
 } */
 
-/* .cards__item__img1 {
+.cards__item__img1 {
   position: absolute;
   top: 0;
   right: 0;
@@ -138,7 +138,7 @@ background-color: rgb(41, 40, 36);
   object-fit: scale-down;
   transition: all 0.2s linear;
   background-color: rgba(145, 149, 152);
-} */
+}
 
 .cards__item__info1 {
   padding: 20px 20px 10px;
