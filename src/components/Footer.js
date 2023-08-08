@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Contact Me</h2>
-            <Link to='/'>Contact</Link>
+            <Link to='/contact'>Contact</Link>
             {/* <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link> */}

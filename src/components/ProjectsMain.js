@@ -16,10 +16,10 @@ function ProjectSection() {
         <div className='cards__wrapper'>
         <ul className='cards__items'>
             <CardItem2
-            src='./images/p1portfolio.png'
+            src='public\images\p1portfolio.png'
             h1='Portfolio'
             text="portfolio-site is the culmination of the skills I've been practicing and projects I've been currently working on and who I am. "
-            path='https://1drv.ms/w/s!AjazutueHmfWhNwwjOIOSartoMVHZg?e=CFYZWG'
+            path='https://main.d2iq1qm47hdm1e.amplifyapp.com/'
             />
             <CardItem2
             src='./images/p2ulious.png'
