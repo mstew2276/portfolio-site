@@ -37,11 +37,17 @@ function ProjectSection() {
             path='https://main.d3byc55h7tfiuv.amplifyapp.com/'
             />
             <CardItem2 
+            src='./images/p4starcrossarcade.png'
+            h1='StarCross Arcade'
+            text='StarCross Arcade is a project I made for an imaginary arcade. With this project I decided to use just html and css to make a basic website.'
+            path="https://main.d2oucxc4b7piw0.amplifyapp.com/"
+            />
+            {/* <CardItem2 
             src='./images/p4python.png'
             h1='Python Game'
             text='Python Game is a project my classmates and I at Nucamp were told to create to show our understanding of variables and funcitons and how it can be used to create a turned based terminal game. '
             path="https://1drv.ms/f/s!AjazutueHmfWpd9fmukNIvsj4hGEKg?e=fYdPIG"
-            />
+            /> */}
             {/* <CardItem2 
             src='./images/profilepic.png'
             h1='P5/'
