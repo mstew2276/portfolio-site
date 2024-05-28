@@ -8,8 +8,7 @@ export default function Contact() {
     <div className='body'>
     <div className="container mt-5">
         
-    <form action="form-process.php" method="POST" class='formcarry-form'>
-        
+      <form class="my-form" id="portfolio-form" action="" method="get">
         <h1 class="col">Contact Me!</h1>
         <ul>
             <li>
@@ -33,6 +32,7 @@ export default function Contact() {
         </ul>
         <button type="submit" class="btn btn-primary col" onclick="Submit()">Submit</button>
     </form>
+    <h1> If form does not work send an email to this address: masonstewart2276@gmail.com</h1>
     </div>
     </div>
   )
