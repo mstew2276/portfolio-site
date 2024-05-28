@@ -8,7 +8,8 @@ export default function Contact() {
     <div className='body'>
     <div className="container mt-5">
         
-      <form class="my-form" id="portfolio-form" action="" method="get">
+    <form action="form-process.php" method="POST" class='formcarry-form'>
+        
         <h1 class="col">Contact Me!</h1>
         <ul>
             <li>
